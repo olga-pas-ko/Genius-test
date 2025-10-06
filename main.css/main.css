@@ -1,0 +1,24 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+
+body {
+    height: 100px;
+    background: #2A7B9B;
+    background: radial-gradient(circle, rgba(42, 123, 155, 1) 0%, rgba(87, 199, 133, 1) 66%);
+}
+
+.container {
+    display: flex;
+    justify-content: flex-start;
+}
+
+.container-box {
+    background-color: #edededed;
+    display: flex;
+    justify-content: space-evenly;
+    padding: 10px 0;
+    width: 600px;
+}
